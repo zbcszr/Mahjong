@@ -1,0 +1,24 @@
+This project is of 1555 lines of codes including specifications, excluding 
+tests. However, there are two main parts to our game that is harder and that
+we think should be considered when interpreting the scale of this project.
+
+Firstly, as the central piece of logic of our project, the determination of ron
+(a winning hand) is much more complex than the problems we often face in this 
+course. Implementing this functionality and its related functions involves much
+time and effort to develop an algorithm that can break down the countless of 
+combinations of tiles. Beside judging of ron, we also implemented 6 Yakus, 
+which are additional conditions to ron. These Yakus are also one of the more 
+complex feature in a Mahjong game. 
+
+Another way in which this project is of significant scale is that it involves a
+rather complicated game-state flow control. For every turn, the system performs
+7 steps until it can proceeds to the next step. Not only does player's hand and 
+the stage of the game affects what should be done, but player's own options
+affects the routine significantly. For example, if a player can Chii, they can
+no longer draw more cards. However, if they decided to skip this Chii action, 
+we need to bring them back to the track where they can draw and discad tiles
+as usual. Similar cases also occur for many other operations. Therefore, we
+think that the flow-control of this game contribute to our project's scale.
+
+Overall, we hope that the reasons stated above can be considered when 
+interpreting the scale of this project.

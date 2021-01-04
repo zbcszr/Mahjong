@@ -1,0 +1,6 @@
+#require "ounit2";;
+#require "ANSITerminal";;
+#directory "_build";;
+#load "game.cmo";;
+#load "player.cmo";;
+#load "tile.cmo";;
