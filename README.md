@@ -63,11 +63,13 @@ are waiting automatically.
 
 - **Riichi (立直 or リーチ)**: A player can declare Riichi if and only if the player needs exactly one more tile to have a winning pattern and has not Chii-ed in the game. After declaring Riichi, the player can only discard the tile they draw on that round. 
 
-Made by Helen Wang, Tianjing Zhang, Bixin Zhang 🀅🀇🀐🀠
+## Teammates
 
-images: 
+Made by [Helen Wang](https://github.com/hhhhelenwang), [Tianjing Zhang](https://github.com/yuuuums), [Bixin Zhang](https://github.com/zbcszr)
 
-![gameflow](image/gameflow.png)
+images🀅🀇🀐🀠: 
+
+![gameflow](image/gameflow.png) drawn by Helen!
 
 ![chii](image/chii.png)
 
