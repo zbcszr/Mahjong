@@ -65,6 +65,10 @@ are waiting automatically.
 
 
 images: 
-![victory](image/ron.jpg)
+
+![gameflow](image/gameflow.png)
 
 ![chii](image/chii.png)
+
+![victory](image/ron.jpg)
+
